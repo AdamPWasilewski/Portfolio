@@ -2,9 +2,9 @@
 
 alert("Welcome to my webpage, I hope You will enjoy it!");
 
-welcomeQuestionare();
+welcomeQuestionnaire();
 
-function welcomeQuestionare() {
+function welcomeQuestionnaire() {
   const score = prompt(
     "Please tell me how high are yours expectations? From 1-3(where 3 is high, and 1 is low?)"
   );
@@ -19,7 +19,7 @@ function welcomeQuestionare() {
 }
 
 function gradeWebpage() {
-  // TODO: use keyword => debugger;
+  // TO DO: use keyword => debugger;
 
   let score = prompt("Please grade my webpage. 1-10 where 10 is masterpiece!");
 
