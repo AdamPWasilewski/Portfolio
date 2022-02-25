@@ -26,10 +26,6 @@ h2 {
   padding-top: none;
 }
 
-a::first-letter {
-  color: rgb(164, 0, 251);
-}
-
 .whole-article {
   margin: 0 auto;
   color: #424242;
@@ -40,8 +36,13 @@ a::first-letter {
   padding-bottom: 30px;
 }
 
+.whyitpar {
+  padding-bottom: 0;
+}
+
 ul {
   list-style: square;
+  color: rgb(164, 0, 251);
   padding-left: 15px;
 }
 
@@ -52,12 +53,10 @@ img {
 a {
   text-decoration: none;
   color: black;
-  padding-right: 10px;
-  padding-bottom: 10px;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: rgb(164, 0, 251);
   cursor: pointer;
 }
 
@@ -97,4 +96,8 @@ footer {
   border: 2px solid rgb(164, 0, 251);
   text-align: center;
   width: 700px;
+}
+
+p {
+  padding-bottom: 15px;
 }
